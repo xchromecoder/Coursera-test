@@ -1,3 +1,89 @@
-p {
-	color: blue;
+* {
+	box-sizing: border-box;
+}
+h2 {
+	text-align: center;
+	font-family: Georgia, Times, serif; 
+}
+
+section {
+	background-color: #b0d0ba;
+	border: 1px solid black;
+	padding: 50px 10px 10px 10px;
+	margin: 10px;
+	position: relative;
+	font-family: Georgia, Times, serif;
+}
+.section2 {
+	background-color: #f6e1d2;
+}
+.section3 {
+	background-color: #f6e5f2;
+}
+#Mint {
+	color: #414247;
+	text-align: center;
+	background-color: #c3bab3;
+	border: 1px solid black;
+	top: 0px;
+	right: 0px;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	position: absolute;
+}
+
+#Peaches {
+	color: #414247;
+	text-align: center;
+	background-color: #c3bab3;
+	border: 1px solid black;
+	top: 0px;
+	right: 0px;
+	padding: 10px 50px;
+	margin-top: 0px;
+	margin-right: 0px;
+	position: absolute;
+}
+
+#Strawberry {
+	color: #414247;
+	text-align: center;
+	background-color: #c3bab3;
+	border: 1px solid black;
+	top: 0px;
+	right: 0px;
+	padding: 10px 50px;
+	margin-top: 0px;
+	margin-right: 0px;
+	position: absolute;
+}
+
+/* simple responsive framework */
+.row {
+	width: 100%;
+}
+/* mobile */
+@media (max-width: 767px) {
+	.col-1g-4 {
+		width: 100%;
+	}
+}
+/* ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+}
+/* laptop */
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33%;
+		float: left;
+	}
 }
